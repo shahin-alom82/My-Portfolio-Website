@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+  background-image: url("../public/b10ded10e149206721544521b2e36c35.gif");
+  /* background-repeat: no-repeat; */
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #499bae;
+}
+
+
+
+
+/* @layer components {
+  .nav-link {
+    @apply relative font-semibold text-white cursor-pointer text-[18px] w-fit hidden md:block;
+  }
+
+  .nav-link::after {
+    @apply block content-[''] absolute h-[3px] bg-yellow-400 w-full scale-x-0 hover:scale-x-100 transition duration-300 origin-center;
+  }
+
+  .nav-link-mobile {
+    @apply relative font-semibold text-white cursor-pointer text-[27px] w-fit md:block;
+  }
+
+  .nav-link-mobile::after {
+    @apply block content-[''] absolute h-[3px] bg-yellow-400 w-full scale-x-0 hover:scale-x-100 transition duration-300 origin-center;
+  }
+} */
