@@ -7,11 +7,11 @@
 
 const Skils = () => {
       return (
-            <div className="mx-[55px] lg:ml-[80px] mt-16">
+            <div className="mx-[55px] lg:ml-[80px]">
 
 
                   <div className="text-center">
-                        <h1 className="lg:text-5xl text-3xl font-bold text-purple-500">My Skils</h1>
+                        <h1 className="lg:text-5xl text-3xl font-bold text-purple-500 mt-20">My Skils</h1>
                         <p className="text-xl border-b border-purple-800 mb-2 py-10">We put your ideas and thus your wishes in the form of a unique web project
                               <br />
                               that inspires you and you customers.</p>
@@ -21,7 +21,7 @@ const Skils = () => {
 
 
                   {/* Cart Section */}
-                  <div className="grid lg:grid-cols-5 grid-cols-2 space-y-12 gap-4 mt-6 lg:ml-8">
+                  <div className="grid lg:grid-cols-5 grid-cols-2 space-y-12 gap-4 lg:ml-8 mt-10">
 
 
 

@@ -13,15 +13,15 @@ const Header = () => {
 
 
       const navLink = [
-            { text: "Home", path: "#Home" },
-            { text: "About", path: "#About" },
-            { text: "Skils", path: "#Skils" },
-            { text: "Resume", path: "#Resume" },
-            { text: "Contacts", path: "#Conatact" }
+            { text: "Home", path: "/" },
+            { text: "About", path: "/About" },
+            { text: "Skils", path: "/Skils" },
+            { text: "Projects", path: "/Projects" },
+            { text: "Contacts", path: "/contact" }
       ]
 
       return (
-            <div className='h-28 md:mx-[50px] rounded shadow-xl shadow-purple-600/15 fixed z-10'>
+            <div className='h-28 md:mx-[50px] rounded shadow-xl shadow-purple-600/15'>
 
                   <div className='flex items-center justify-between w-[80%] p-10 h-[100%] gap-10'>
                         {/* <h1 className='flex-[0.6] cursor-pointer text-[40px] uppercase font-semibold text-start text-white'>
@@ -42,10 +42,6 @@ const Header = () => {
                                           </li>
                                     ))
                               }
-
-                              {/* <div className='nav-link text-[22px] text-white'>Services</div> */}
-
-                              {/* <button type="button" class="text-white bg-purple-700 h-12 w-28 text-[18px] font-semibold rounded-full  text-center ">Hire Me</button> */}
                         </ul>
 
 

@@ -6,7 +6,7 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Contact = () => {
       return (
-            <div className="featured-login mt-32 px-4 md:px-8 lg:px-0">
+            <div className="featured-login mt-20 px-4 md:px-8 lg:px-0">
                   <div className="hero-content flex flex-col lg:flex-row-reverse items-center">
 
                         <div className="card text-gray-900 mb-10 lg:mb-0 lg:mr-32 lg:ml-24">
