@@ -10,6 +10,7 @@ import { LiaAmericanSignLanguageInterpretingSolid } from "react-icons/lia";
 
 const WhatIDo = () => {
       return (
+
             <div>
                   <div id="/#workplen" className="w-5/6 mx-auto mt-28">
 
