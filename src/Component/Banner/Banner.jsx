@@ -43,24 +43,25 @@ const Banner = () => {
 
                                     <div className=" gap-4 mt-6 sm:mt-8 md:mt-10 lg:mt-4 xl:mt-8 items-center">
 
-                                          <button class="lg:text-[18px] text-purple-600 font-medium rounded-full text-center border duration-500 hover:bg-purple-700  hover:text-white border-purple-700 px-5 py-2.5 inline-flex items-center me-2 ">
-                                                <IoMdArrowRoundDown className='w-10' />
+                                          <button class="lg:text-[18px] text-[12px] text-purple-600 font-medium rounded-full text-center border duration-500 hover:bg-purple-700  hover:text-white border-purple-700 px-5 py-2.5 inline-flex items-center me-2 ">
+                                                <IoMdArrowRoundDown className='lg:w-10 w-4' />
                                                 Download CV
                                           </button>
-                                          <button className="border border-purple-700 rounded-full p-2 h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 "><FaGithub />
+
+                                          <button className="border border-purple-700 rounded-full p-2 lg:h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 "><FaGithub />
                                           </button>
-                                          <button className="border border-purple-700 rounded-full p-2 h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><TbBrandFacebookFilled />
+                                          <button className="border border-purple-700 rounded-full p-2 lg:h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><TbBrandFacebookFilled />
                                           </button>
-                                          <button className="border border-purple-700 rounded-full p-2 h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><FaLinkedinIn />
+                                          <button className="border border-purple-700 rounded-full p-2 lg:h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><FaLinkedinIn />
                                           </button>
-                                          <button className="border border-purple-700 rounded-full p-2 h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><FaTwitter />
+                                          <button className="border border-purple-700 rounded-full p-2 lg:h-10 text-purple-700 hover:bg-purple-700 hover:text-white duration-500 lg:ml-4 ml-2"><FaTwitter />
                                           </button>
                                     </div>
 
                               </div>
 
                               {/* Image Section */}
-                              <div className="lg:ml-40 ml-[35px] mt-28  w-[330px] h-[400px]  border-4 rounded-3xl border-purple-700 cursor-pointer">
+                              <div className="lg:ml-40 ml-[12px] mt-28  w-[330px] h-[400px]  border-4 rounded-3xl border-purple-700 cursor-pointer">
                                     <img className='hover:rotate-[15deg] duration-500 hover:border-4 border-4  border-purple-700 w-[330px] h-[400px]  rounded-3xl ' src="https://i.ibb.co/y5hLCHT/448803900-991780162595052-2271124324976378812-n-removebg-preview.png" alt="" />
                               </div>
                         </div>
