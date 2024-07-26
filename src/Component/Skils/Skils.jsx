@@ -71,8 +71,8 @@ const Skils = () => {
                                     <div className=" bg-[#140c1c] font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2  lg:w-48 lg:h-40 shadow dark:bg-gray-800 ">
                                           <img className="h-10 text-center mx-auto text-white mt-4" src={"https://i.ibb.co/rGXdmzB/png-transparent-tailwind-css-hd-logo-removebg-preview.png"} alt="" />
                                           <div className="">
-                                                <h2 className="lg:text-[20px] mt-5 font-bold">85%</h2>
-                                                <h5 className="lg:text-[18px] text-center tracking-tight text-white mt-3 font-semibold">Tailwind CSS</h5>
+                                                <h2 className="lg:text-[20px] lg:mt-5 font-bold">85%</h2>
+                                                <h5 className="lg:text-[18px] text-center tracking-tight text-white lg:mt-3 font-semibold">Tailwind CSS</h5>
                                           </div>
                                     </div>
 
@@ -130,8 +130,8 @@ const Skils = () => {
                                           <img className="h-14 text-center mx-auto text-white mt-2" src={"https://i.ibb.co/x2BXXGk/9kib-354x415-unnamed-mongodb-logo-sv-11562860723mgempnmrq3-removebg-preview.png"} alt="" />
                                           <div className="">
                                                 <a href="#">
-                                                      <h2 className="lg:text-[20px] mt-2 font-bold">50%</h2>
-                                                      <h5 className="lg:text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Mongo DB</h5>
+                                                      <h2 className="lg:text-[20px] lg:mt-2 font-bold">50%</h2>
+                                                      <h5 className="lg:text-[18px] text-center tracking-tight text-white lg:mt-2 font-semibold">Mongo DB</h5>
                                                 </a>
                                           </div>
                                     </div>
@@ -175,8 +175,8 @@ const Skils = () => {
                                           <h1 className="h-12 text-center mx-auto text-white mt-2 text-5xl font-bold">ex</h1>
                                           <div className="">
                                                 <a href="#">
-                                                      <h2 className="text-[20px] mt-3 font-bold">50%</h2>
-                                                      <h5 className="text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Express js</h5>
+                                                      <h2 className="lg:text-[20px] mt-2 font-bold">50%</h2>
+                                                      <h5 className="lg:text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Express js</h5>
                                                 </a>
                                           </div>
                                     </div>
@@ -194,8 +194,8 @@ const Skils = () => {
                                           <img className="h-12 text-center mx-auto text-white mt-4" src={"https://i.ibb.co/ZJcrCTG/48965da2c75390e8c486058c282b35cd-removebg-preview.png"} alt="" />
                                           <div className="">
                                                 <a href="#">
-                                                      <h2 className="text-[20px] mt-3 font-bold">85%</h2>
-                                                      <h5 className="text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Firebase</h5>
+                                                      <h2 className="lg:text-[20px] mt-3 font-bold">85%</h2>
+                                                      <h5 className="lg:text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Firebase</h5>
                                                 </a>
                                           </div>
                                     </div>
@@ -213,8 +213,8 @@ const Skils = () => {
                                           <img className="h-12 text-center mx-auto text-white mt-4" src={"https://i.ibb.co/7b74fkF/vercel-logo-F748-E39008-seeklogo-com-removebg-preview.png"} alt="" />
                                           <div className="">
                                                 <a href="#">
-                                                      <h2 className="text-[20px] mt-3 font-bold">50%</h2>
-                                                      <h5 className="text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Vercel</h5>
+                                                      <h2 className="lg:text-[20px] mt-3 font-bold">50%</h2>
+                                                      <h5 className="lg:text-[18px] text-center tracking-tight text-white mt-2 font-semibold">Vercel</h5>
                                                 </a>
                                           </div>
                                     </div>

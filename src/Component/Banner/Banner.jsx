@@ -21,7 +21,7 @@ const Banner = () => {
                                     <p className="lg:text-6xl lg:text-start text-center sm:text-5xl md:text-6xl font-bold text-4xl sm:mt-6  lg:mt-2 xl:mt-5  text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-700 duration-500">Shahin Alom
                                     </p>
 
-                                    <div className='mt-6 lg:text-5xl text-2xl font-semibold text-purple-500 lg:ml-0 ml-16'>
+                                    <div className='mt-6 lg:text-5xl text-4xl font-semibold text-purple-500 lg:ml-0 ml-16'>
 
                                           <Typewriter
                                                 options={{

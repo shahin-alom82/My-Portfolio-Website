@@ -1,4 +1,5 @@
 import Container from "../Container/Container";
+import CountUp from 'react-countup';
 
 const Experience = () => {
       return (
@@ -9,7 +10,7 @@ const Experience = () => {
 
                               <div className='flex gap-5'>
                                     <div>
-                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'>1</h1>
+                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'> <CountUp end={2} duration={.5}></CountUp> </h1>
                                     </div>
                                     <div className='mt-6 text-xl'>
                                           <h1>Years of </h1>
@@ -20,7 +21,7 @@ const Experience = () => {
 
                               <div className='flex gap-5'>
                                     <div>
-                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'>4</h1>
+                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'><CountUp end={4} duration={.5}></CountUp> </h1>
                                     </div>
                                     <div className='mt-6 text-xl'>
                                           <h1>Backend </h1>
@@ -30,7 +31,7 @@ const Experience = () => {
 
                               <div className='flex gap-5'>
                                     <div>
-                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'>1</h1>
+                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'><CountUp end={10} duration={.5}></CountUp></h1>
                                     </div>
                                     <div className='mt-6 text-xl'>
                                           <h1>Happy</h1>
@@ -41,7 +42,7 @@ const Experience = () => {
 
                               <div className='flex gap-5'>
                                     <div>
-                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'>12<span className='font-bold'>+</span></h1>
+                                          <h1 className='lg:text-[65px] text-3xl mt-8 font-bold lg:ml-0 ml-10'><CountUp end={16} duration={.5}></CountUp><span className='font-bold'>+</span></h1>
                                     </div>
                                     <div className='mt-6 text-xl'>
                                           <h1>Project</h1>
